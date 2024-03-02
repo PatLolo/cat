@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+ 
+   <head>
+    <title>CatPhotoApp</title>
+   </head>
+   <body>
+    <main>
+        <section>
+        <h1>CatPhotoapp</h1>
+            <h2>Cat Photos</h2>
+            <!---TODO: add link to cat photos-->
+        <p>See more   <a target="_blank" href="https://freecatphotoapp.com">cat photos</a> in our gallery</p>
+       <a href="https://freecatphotoapp.com"></a><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A red kitty laying on its back"></a>
+        </section>
+        <section>
+           <h2>Things cats like</h2> 
+           <ul>
+            <li>Catnip</li>
+            <li>laser ponters</li>
+            <li>lasagna</li>
+           </ul>
+           <figure>
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg">
+          <figcaption>Cats <em>love</em> lasagna</figcaption>
+          </figure>
+          <h3>Top 3 Things cats hate</h3> 
+          <ol>
+            <li>Thunder</li>
+            <li>Other cats</li>
+            <li>flea treatment</li>
+          </ol>
+          <figure>
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Five cats looking around a field.">
+          <figcaption>cats <strong>hate</strong> other cats</figcaption>
+        </figure> 
+        </section>
+        <fieldset>
+            <legend>Is your cat a indoor or outdoor cat?</legend>
+            <label><input id="indoor" type="radio" value="indoor" name="indoor-outdoor">indoor</label>
+           <label><input id="outdoor" type="radio" value="outdoor"name="indoor-outdoor">outdoor</label>
+            </fieldset>
+            <fieldset>
+                <legend>What is your cats personality?</legend>
+              <label><input for="loving" id="loving" value="loving" name="loving-lazy-energetic" type="checkbox" checked>Loving</label>
+                <label><input for="lazy" id="lazy" value="lazy" name="loving-lazy-energetic" type="checkbox" checked >Lazy</label>
+                <label><input for="energetic" id="'energetic" value="energetic" type="checkbox" name="lovi>ng-lazy-energetic" checked >Energetic</label>
+            </fieldset>
+            <input placeholder="Cat photo URL"> <button>Submit</button>
